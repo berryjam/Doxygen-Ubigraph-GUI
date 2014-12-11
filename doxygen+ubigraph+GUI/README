@@ -1,0 +1,57 @@
+软件复杂网络生成可视化工具v20140601
+
+本软件为自由软件，使用GPLv3许可证发布。
+
+作者：宋景和 北航可靠性与系统工程学院2014届
+
+本软件用于分析Java项目源代码，并生成类关系图或函数调用图并进行3D可视化。支持回调，显示节点信息和在源代码中的定义。允许用户保存连通子图。还有删除连通子图，保存分析日志等功能。
+
+文件说明：
+
+====代码及配置文件=====
+make.py -- 运行整个项目
+code_analysis.py -- 项目入口，完成可视化，使用方法见代码的main块
+code_parser.py -- 网络生成包，使用方法见代码的main块
+demo.py -- 使用示例
+doxygen.config -- doxygen配置文件
+gui.py -- 以图形界面运行整个软件
+simple-gui.py -- 图形界面的最早版本，可以用来理解一下总结构，缺少很多功能，但也可以用来分析，不过分析时会block
+
+====说明文件====
+README   -- 说明文件
+
+====可能会生成的中间文件=====
+all.xml -- doxygen生成的整个软件项目的中间文件经过合并后的索引
+a.gml.gz -- 自动生成的整个项目网络中最大连通子图
+Java软件复杂网络生成与分析日志.log -- 从图形界面保存的分析日志
+connected-subgraph.gml.gz -- 从GUI选择保存的连通子图
+javacc-default.png -- 使用Networkx绘制的网络图像
+warn.log -- doxygen生成的日志文件
+/tmp/xml目录 -- doxygen生成的中间文件目录
+*.pyc -- python字节码文件，用于加速脚本的加载时间，没什么用
+
+
+
+############################
+
+整个过程如下：
+1 doxygen根据doxygen.config的配置，生成一堆文件，包含源代码类及函数之间的依赖/调用关系。
+2 xlstproc处理doxygen生成的文件并选择性提取并合并为all.xml文件。
+3 code_parser.py处理all.xml文件并生成NetworkX的图。
+4 code_analysis.py把networkX的图进行可视化。
+
+
+源代码 + doxygen.config --> doxygen --> *.xml --> (xlstproc) --> all.xml --> 
+
+(code_parser.py) --> NetworkX格式的Graph --> (code_analysis.py, 执行前启动 Ubigraph ) -->
+
+Ubigraph显示 ----> (回调 code_analysis.py)
+
+
+
+使用方法：
+一、修改myconfig文件，指定源代码目录的路径
+二、（可选）修改Makefile，确保doxygen和xlstproc程序可以正确调用
+三、运行makfile，生成all.xml文件
+四、（可选）如果要可视化，请打开ubigraph server
+五、将code_analysis.py作为库导入，并调用相关函数处理代码或可视化（会自动调用code_parser），详情请见demo.py

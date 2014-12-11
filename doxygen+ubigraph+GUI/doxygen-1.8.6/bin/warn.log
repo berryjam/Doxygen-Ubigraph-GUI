@@ -1,0 +1,56 @@
+warning: The selected output language "chinese" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/BNFGenerator.java:115: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.BNFGenerator::nonterminalsStart() inherited from member nonterminalsStart at line 91 in file /home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/BNFGenerator.java:115: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.BNFGenerator::nonterminalsStart() inherited from member nonterminalsStart at line 91 in file /home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/CodeGenerator.java:231: warning: Found unknown command `\XX'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java:91: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.Generator::nonterminalsStart()
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java:91: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.Generator::nonterminalsStart()
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/HTMLGenerator.java:139: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.HTMLGenerator::nonterminalsStart() inherited from member nonterminalsStart at line 91 in file /home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/HTMLGenerator.java:139: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.HTMLGenerator::nonterminalsStart() inherited from member nonterminalsStart at line 91 in file /home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/utils/JavaFileGenerator.java:170: warning: argument 'substring' of command @param is not found in the argument list of org.javacc.utils.JavaFileGenerator::substituteWithConditional(String variableName, String values)
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/utils/JavaFileGenerator.java:170: warning: argument 'defaultValue' of command @param is not found in the argument list of org.javacc.utils.JavaFileGenerator::substituteWithConditional(String variableName, String values)
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/utils/JavaFileGenerator.java:170: warning: The following parameters of org.javacc.utils.JavaFileGenerator.substituteWithConditional(String variableName, String values) are not documented:
+  parameter 'variableName'
+  parameter 'values'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/test/JJDocMainTest.java:66: warning: unable to resolve link to `org.javacc.jjdoc.JJDocMain#main(java.lang.String[])' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/test/JJDocMainTest.java:72: warning: unable to resolve link to `org.javacc.jjdoc.JJDocMain#mainProgram(java.lang.String[])' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/test/JJDocMainTest.java:79: warning: unable to resolve link to `org.javacc.jjdoc.JJDocMain#mainProgram(java.lang.String[])' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:86: warning: unable to resolve link to `org.javacc.parser.NfaState#getFirstValidPos(java.lang.String, int, int)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:92: warning: unable to resolve link to `org.javacc.parser.NfaState#MoveFrom(char, java.util.Vector)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:98: warning: unable to resolve link to `org.javacc.parser.NfaState#MoveFromSet(char, java.util.Vector, java.util.Vector)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:104: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:112: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:119: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:130: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:147: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:167: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:191: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:201: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:391: warning: unable to resolve link to `org.javacc.parser.NfaState#DumpMoveNfa(java.io.PrintWriter)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:438: warning: unable to resolve link to `org.javacc.parser.NfaState#DumpMoveNfa(java.io.PrintWriter)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:451: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:462: warning: unable to resolve link to `org.javacc.parser.NfaState#' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:551: warning: unable to resolve link to `org.javacc.parser.NfaState#DumpStatesForKind(java.io.PrintWriter)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/test/NfaStateTest.java:562: warning: unable to resolve link to `org.javacc.parser.NfaState#DumpStatesForKind(java.io.PrintWriter)' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/Options.java:753: warning: unable to resolve link to `Error' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/Options.java:753: warning: unable to resolve link to `Error' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/Options.java:756: warning: unable to resolve link to `Error' for \link command
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/OutputFile.java:164: warning: argument 'fileName' of command @param is not found in the argument list of org.javacc.parser.OutputFile::checkVersion(File file, String versionId)
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/OutputFile.java:164: warning: The following parameters of org.javacc.parser.OutputFile.checkVersion(File file, String versionId) are not documented:
+  parameter 'file'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/OutputFile.java:198: warning: argument 'fileName' of command @param is not found in the argument list of org.javacc.parser.OutputFile::checkOptions(File file, String[] options)
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/OutputFile.java:198: warning: The following parameters of org.javacc.parser.OutputFile.checkOptions(File file, String[] options) are not documented:
+  parameter 'file'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/ParseEngine.java:85: warning: Found unknown command `\u0001'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/ParseEngine.java:85: warning: Found unknown command `\u0002'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/ParseEngine.java:87: warning: Found unknown command `\u0003'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/parser/ParseEngine.java:87: warning: Found unknown command `\u0004'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java:91: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.Generator::nonterminalsStart()
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java:91: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.Generator::nonterminalsStart()
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/TextGenerator.java:183: warning: The following parameters of org.javacc.jjdoc.TextGenerator.reStart(RegularExpression r) are not documented:
+  parameter 'r'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/TextGenerator.java:189: warning: The following parameters of org.javacc.jjdoc.TextGenerator.reEnd(RegularExpression r) are not documented:
+  parameter 'r'
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/XTextGenerator.java:158: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.XTextGenerator::nonterminalsStart() inherited from member nonterminalsStart at line 91 in file /home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java
+/home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/XTextGenerator.java:158: warning: argument 'tp' of command @param is not found in the argument list of org.javacc.jjdoc.XTextGenerator::nonterminalsStart() inherited from member nonterminalsStart at line 91 in file /home/gnusong/myproject/going正在进行项目/毕业设计/download/org/javacc/jjdoc/Generator.java

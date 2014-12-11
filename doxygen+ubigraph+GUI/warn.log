@@ -1,0 +1,10 @@
+warning: The selected output language "chinese" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/src/com/camera/control/renderer/MyGLRenderer.java:48: warning: unable to resolve link to `android.opengl.GLSurfaceView.Renderer#onSurfaceCreated' for \link command
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/src/com/camera/control/renderer/MyGLRenderer.java:49: warning: unable to resolve link to `android.opengl.GLSurfaceView.Renderer#onDrawFrame' for \link command
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/src/com/camera/control/renderer/MyGLRenderer.java:50: warning: unable to resolve link to `android.opengl.GLSurfaceView.Renderer#onSurfaceChanged' for \link command
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/gen/com/example/test/R.java:94: warning: expected <tr> or <caption> tag but found <colgroup> instead!
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/gen/com/example/test/R.java:95: warning: Unsupported xml/html tag <colgroup> found
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/gen/com/example/test/R.java:105: warning: unable to resolve link to `android.R.attr#galleryItemBackground' for \link command
+/Users/berryjam/Documents/workspace/MyCameraApp/MyCameraApp/gen/com/example/test/R.java:107: warning: Found unknown command `\attr'

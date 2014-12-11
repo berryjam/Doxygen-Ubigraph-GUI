@@ -1,0 +1,7 @@
+RM        = rm -f
+VERSION   = 
+INSTALL   = /usr/local
+INSTTOOL  = /usr/local/bin/ginstall
+DOXYDOCS  = ..
+
+export TMAKEPATH

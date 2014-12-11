@@ -1,0 +1,41 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "pysonar2"
+OUTPUT_LANGUAGE        = Chinese
+
+CREATE_SUBDIRS         = NO
+OPTIMIZE_OUTPUT_JAVA   = YES
+
+# INPUT = /home/gnusong/myproject/going正在进行项目/毕业设计/download/software/pysonar2-master/src/main/java
+# INPUT = /home/gnusong/myproject/going正在进行项目/毕业设计/download/software/javaparser-1.0.8-src/src
+INPUT = /home/gnusong/myproject/going正在进行项目/毕业设计/download/org
+
+OUTPUT_DIRECTORY       = /tmp
+RECURSIVE = yes
+
+LOOKUP_CACHE_SIZE      = 1
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_PACKAGE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+REFERENCED_BY_RELATION = NO
+REFERENCES_RELATION    = YES
+
+GENERATE_HTML = NO
+GENERATE_XML = YES
+
+GENERATE_HTMLHELP = NO
+GENERATE_LATEX = NO
+GENERATE_RTF = NO
+GENERATE_MAN = NO
+
+SHOW_USED_FILES        = NO
+SHOW_FILES             = NO
+SHOW_NAMESPACES        = NO
+
+QUIET                  = YES
+WARN_LOGFILE           = warn.log
